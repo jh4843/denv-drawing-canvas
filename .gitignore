@@ -12,6 +12,10 @@
 .history
 .svn/
 
+# code generator result
+*.g.dart
+*.freezed.dart
+
 # IntelliJ related
 *.iml
 *.ipr

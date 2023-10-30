@@ -11,3 +11,8 @@
   6. dev:custom_lint
   7. dev:riverpod_lint
 
+## build
+- cmd
+  - flutter pub run build_runner build -?delete-conflicting-outputs</br>
+  or
+  - dart run build_runner build
