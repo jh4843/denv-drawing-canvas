@@ -8,7 +8,7 @@ class LoadLocalImagesUseCase {
   final ImageRepository imageRepository;
 
   Future<MyImages> execute(List<String> pathList) async {
-    await imageRepository.loadLocalFiles(pathList);
+    imageRepository.loadLocalFiles(pathList);
     return await imageRepository.getMyImages(pathList);
   }
 }
