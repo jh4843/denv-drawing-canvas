@@ -1,6 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import './my_image_info.dart';
+
 import 'dart:typed_data';
+
+import './my_image_info.dart';
 
 part 'my_image.freezed.dart';
 part 'my_image.g.dart';
@@ -30,17 +32,3 @@ class MyImage with _$MyImage {
 
   factory MyImage.fromJson(Map<String, Object> json) => _$MyImageFromJson(json);
 }
-
-
-// class MyImage extends Equatable {
-//   final MyImageInfo imgInfo;
-//   final Uint8List bytes;
-
-//   @override
-//   List<Object?> get props => [imgInfo, bytes];
-
-//   const MyImage({
-//     required this.imgInfo,
-//     required this.bytes,
-//   });
-// }

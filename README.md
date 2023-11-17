@@ -13,6 +13,6 @@
 
 ## build
 - cmd
-  - flutter pub run build_runner build -?delete-conflicting-outputs</br>
+  - dart run build_runner build -?delete-conflicting-outputs</br>
   or
   - dart run build_runner build

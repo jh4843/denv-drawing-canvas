@@ -1,14 +1,16 @@
-enum FileTypes {
+enum FileType {
   local,
   network,
 }
 
-enum ImageFileFormat {
-  raw_littel_endian,
-  raw_big_endian,
+enum ImageFormat {
+  unknown,
+
+  rawLittelEndian,
+  rawBigEndian,
   //
   png,
-  jpg,
+  jpeg,
   gif,
   svg,
 }
